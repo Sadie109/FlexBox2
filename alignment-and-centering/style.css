@@ -32,16 +32,19 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border:10px solid goldenrod;
-  min-height:100vh;
-  flex-direction: column;
+  height:100vh;
+  flex-wrap: wrap;
+ 
   
 }
 
-/* .box {
-  width:33.333%;
+.box {
+  width:33.3333333% ;
+  margin: 10px;
+  padding: 10px;
 }
 
-.box2 {
+/* .box2 {
   padding-bottom: 2006px;
 }
 
@@ -52,4 +55,4 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box9 {
   padding-bottom: 50px;
   align-self:stretch;
-} */
+}  */
