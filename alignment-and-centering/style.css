@@ -40,6 +40,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .box {
   flex: 1;
+
   /* width:33.3333333% ; */
   /* margin: 10px;
   padding: 10px; */
@@ -49,6 +50,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   order: 5;
 }
 
+.box7 {
+  order: 4;
+}
 
 /* .box2 {
   padding-bottom: 2006px;
