@@ -30,8 +30,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
-  display:flex;
-  justify-content:space-between;
+  /* display:flex;
+  justify-content:space-between; */
   /* 
   justify-content: center
   justify-content: flex-start
@@ -40,15 +40,35 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   justify-content: space-between
    */
 
-   flex-direction: column;
-   min-height: 100vh;
+   /* flex-direction: column;
+   min-height: 100vh; */
   border: 10px solid mistyrose;
 
   /* border:10px solid goldenrod;
   height:100vh;
   flex-wrap: wrap; */
+
+
+  display: flex;
+  align-items: center;
+  /* align-items: flex-start */
+  /* align-items: flex-end  */
+  /* align-items: baseline  */
+  height: 100vh;
+  flex-direction: column;
 }
 
+.box1 {
+  font-size: 30px;
+}
+
+.box3 {
+  font-size: 40px;
+}
+
+.box4 {
+  font-size: 70px;
+}
 
 
 
